@@ -12,12 +12,12 @@
         "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_fade_out.xml"
-    },
-    {
         "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",

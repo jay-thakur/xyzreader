@@ -1,4 +1,4 @@
-package com.example.xyzreader.data;
+package com.appniche.xyzreader.data;
 
 import android.content.Context;
 import android.content.CursorLoader;
