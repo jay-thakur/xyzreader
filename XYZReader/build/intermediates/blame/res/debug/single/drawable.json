@@ -8,6 +8,10 @@
         "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
+        "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
         "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
@@ -84,6 +88,10 @@
         "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
@@ -150,5 +158,13 @@
     {
         "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
         "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",
+        "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\design_snackbar_background.xml"
     }
 ]
