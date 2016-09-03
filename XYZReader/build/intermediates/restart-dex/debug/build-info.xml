@@ -5,36 +5,36 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.0-beta3"
-    timestamp="551570519486535"
+    timestamp="558667808479668"
     token="8271511202780397554"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2615" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="454" />
+        duration="0" />
     <task
         name="verifier"
-        duration="25" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\JayPrakash\AndroidUdacityProjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
+        location="C:\Users\JayPrakash\AndroidUdacityProjects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="545183782291414"
+        timestamp="556654610348592"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\JayPrakash\AndroidUdacityProjects\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="548527256695187"
+        timestamp="557793070296433"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\JayPrakash\AndroidUdacityProjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
@@ -45,20 +45,16 @@
         <artifact
             location="C:\Users\JayPrakash\AndroidUdacityProjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
             type="DEX" />
+        <artifact
+            location="C:\Users\JayPrakash\AndroidUdacityProjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
     </build>
     <build
-        timestamp="550711815334875"
+        timestamp="558667808479668"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\JayPrakash\AndroidUdacityProjects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
-    </build>
-    <build
-        timestamp="551570519486535"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\JayPrakash\AndroidUdacityProjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

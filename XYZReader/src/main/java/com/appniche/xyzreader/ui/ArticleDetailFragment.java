@@ -222,7 +222,7 @@ public class ArticleDetailFragment extends Fragment implements
             mIsTitleShown = true;
             toolbar.setBackgroundColor(mMutedColor);
         } else if(mIsTitleShown) {
-            collapsingToolbarLayout.setTitle("");
+            //collapsingToolbarLayout.setTitle("");
             mIsTitleShown = false;
             toolbar.setBackgroundColor(getResources().getColor(R.color.trans));
         }

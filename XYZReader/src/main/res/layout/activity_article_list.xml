@@ -24,6 +24,7 @@
                 android:paddingLeft="@dimen/abc_dialog_padding_material"
                 android:background="@color/primary"
                 android:gravity="bottom"
+                app:layout_collapseMode="pin"
                 app:layout_scrollFlags="scroll|enterAlways" >
 
                 <ImageView
