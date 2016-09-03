@@ -106,12 +106,11 @@ public class ArticleDetailFragment extends Fragment implements
         AppBarLayout appBarLayout = (AppBarLayout) mRootView.findViewById(R.id.detail_AppBar);
         appBarLayout.addOnOffsetChangedListener(this);
 
-        collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.detail_CollTollBar);
-
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
 
         mStatusBarColorDrawable = new ColorDrawable(0);
         toolbar = (Toolbar) mRootView.findViewById(R.id.detail_toolbar);
+
         toolbar.setNavigationOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -132,35 +131,6 @@ public class ArticleDetailFragment extends Fragment implements
         bindViews();
         //updateStatusBar();
         return mRootView;
-    }
-
-    /*private void updateStatusBar() {
-        int color = 0;
-        if (mPhotoView != null && mTopInset != 0 && mScrollY > 0) {
-            float f = progress(mScrollY,
-                    mStatusBarFullOpacityBottom - mTopInset * 3,
-                    mStatusBarFullOpacityBottom - mTopInset);
-            color = Color.argb((int) (255 * f),
-                    (int) (Color.red(mMutedColor) * 0.9),
-                    (int) (Color.green(mMutedColor) * 0.9),
-                    (int) (Color.blue(mMutedColor) * 0.9));
-        }
-        mStatusBarColorDrawable.setColor(color);
-        mDrawInsetsFrameLayout.setInsetBackground(mStatusBarColorDrawable);
-    }*/
-
-    static float progress(float v, float min, float max) {
-        return constrain((v - min) / (max - min), 0, 1);
-    }
-
-    static float constrain(float val, float min, float max) {
-        if (val < min) {
-            return min;
-        } else if (val > max) {
-            return max;
-        } else {
-            return val;
-        }
     }
 
     private void bindViews() {
