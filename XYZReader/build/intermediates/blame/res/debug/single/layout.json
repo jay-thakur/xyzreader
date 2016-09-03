@@ -28,12 +28,12 @@
         "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\src\\main\\res\\layout\\list_item_article.xml"
     },
     {
-        "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
         "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
         "merged": "C:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",

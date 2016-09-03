@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.ShareCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
@@ -54,6 +55,9 @@ public class ArticleDetailFragment extends Fragment implements
     private boolean mIsCard = false;
     private int mStatusBarFullOpacityBottom;
     private Toolbar toolbar;
+    private String mTitle;
+    private boolean mIsTitleShown = true;
+
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
@@ -105,18 +109,12 @@ public class ArticleDetailFragment extends Fragment implements
 
         AppBarLayout appBarLayout = (AppBarLayout) mRootView.findViewById(R.id.detail_AppBar);
         appBarLayout.addOnOffsetChangedListener(this);
-
+        collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.detail_CollTollBar);
+        collapsingToolbarLayout.setTitleEnabled(true);
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
 
         mStatusBarColorDrawable = new ColorDrawable(0);
         toolbar = (Toolbar) mRootView.findViewById(R.id.detail_toolbar);
-
-        toolbar.setNavigationOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                getActivity().onBackPressed();
-            }
-        });
 
         mRootView.findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -129,7 +127,6 @@ public class ArticleDetailFragment extends Fragment implements
         });
 
         bindViews();
-        //updateStatusBar();
         return mRootView;
     }
 
@@ -148,7 +145,8 @@ public class ArticleDetailFragment extends Fragment implements
             mRootView.setAlpha(0);
             mRootView.setVisibility(View.VISIBLE);
             mRootView.animate().alpha(1);
-            titleView.setText(mCursor.getString(ArticleLoader.Query.TITLE));
+            mTitle = mCursor.getString(ArticleLoader.Query.TITLE);
+            titleView.setText(mTitle);
             bylineView.setText(Html.fromHtml(
                     DateUtils.getRelativeTimeSpanString(
                             mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
@@ -169,7 +167,6 @@ public class ArticleDetailFragment extends Fragment implements
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
                                 mRootView.findViewById(R.id.meta_bar)
                                         .setBackgroundColor(mMutedColor);
-                                //updateStatusBar();
                             }
                         }
 
@@ -216,20 +213,20 @@ public class ArticleDetailFragment extends Fragment implements
         bindViews();
     }
 
-    /*public int getUpButtonFloor() {
-        if (mPhotoContainerView == null || mPhotoView.getHeight() == 0) {
-            return Integer.MAX_VALUE;
-        }
-
-        // account for parallax
-        return mIsCard
-                ? (int) mPhotoContainerView.getTranslationY() + mPhotoView.getHeight() - mScrollY
-                : mPhotoView.getHeight() - mScrollY;
-    }*/
-
     @Override
     public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
         int maxScroll = appBarLayout.getTotalScrollRange();
 
+        if (maxScroll + verticalOffset == 0) {
+            collapsingToolbarLayout.setTitle(mTitle);
+            mIsTitleShown = true;
+            toolbar.setBackgroundColor(mMutedColor);
+        } else if(mIsTitleShown) {
+            collapsingToolbarLayout.setTitle("");
+            mIsTitleShown = false;
+            toolbar.setBackgroundColor(getResources().getColor(R.color.trans));
+        }
+
     }
+
 }
