@@ -149,6 +149,7 @@ public class ArticleDetailFragment extends Fragment implements
             mRootView.setVisibility(View.VISIBLE);
             mRootView.animate().alpha(1);
             mTitle = mCursor.getString(ArticleLoader.Query.TITLE);
+            collapsingToolbarLayout.setTitle(mTitle);
             titleView.setText(mTitle);
             bylineView.setText(Html.fromHtml(
                     DateUtils.getRelativeTimeSpanString(
@@ -184,6 +185,7 @@ public class ArticleDetailFragment extends Fragment implements
             bylineView.setText("N/A" );
             bodyView.setText("N/A");
         }
+
     }
 
     @Override

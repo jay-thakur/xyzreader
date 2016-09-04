@@ -1,44 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="23"
-    density="560dpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="21"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.0-beta3"
-    timestamp="581206520277306"
+    timestamp="597549507153787"
     token="8271511202780397554"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="856" />
+        duration="884" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="43" />
+        duration="2074" />
     <task
         name="verifier"
-        duration="13" />
+        duration="205" />
 
     <artifact
-        location="C:\Users\JayPrakash\AndroidUdacityProjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
+        location="C:\Users\JayPrakash\AndroidUdacityProjects\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="580632128749510"
+        timestamp="597549507153787"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\JayPrakash\AndroidUdacityProjects\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="581206520277306"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\JayPrakash\AndroidUdacityProjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

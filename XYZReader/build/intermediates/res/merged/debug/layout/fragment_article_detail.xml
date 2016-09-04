@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            app:contentScrim="@android:color/transparent"
+            app:contentScrim="@color/primary"
             app:expandedTitleMarginStart="@dimen/abc_dialog_padding_material"
             app:expandedTitleMarginEnd="@dimen/notification_large_icon_width">
 
