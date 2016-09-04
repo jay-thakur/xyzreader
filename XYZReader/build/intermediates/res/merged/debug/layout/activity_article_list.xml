@@ -19,7 +19,7 @@
                 android:id="@+id/toolbar"
                 app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="?actionBarSize"
                 android:paddingStart="@dimen/abc_dialog_padding_material"
                 android:paddingLeft="@dimen/abc_dialog_padding_material"
                 android:background="@color/primary"
@@ -32,7 +32,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/logo"
-                    android:layout_marginBottom="36dp"
                     android:contentDescription="@string/app_name" />
 
             </android.support.v7.widget.Toolbar>

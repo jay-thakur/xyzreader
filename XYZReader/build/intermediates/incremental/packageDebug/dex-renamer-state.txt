@@ -1,4 +1,4 @@
-#Sun Sep 04 04:40:19 IST 2016
+#Sun Sep 04 11:20:35 IST 2016
 base.0=C\:\\Users\\JayPrakash\\AndroidUdacityProjects\\xyzreader\\XYZReader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0d41cf025a9f02581013edd324a17892449e2348
 renamed.1=classes.dex
 renamed.0=classes2.dex

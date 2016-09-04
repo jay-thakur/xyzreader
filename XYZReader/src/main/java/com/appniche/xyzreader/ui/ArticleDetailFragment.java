@@ -38,7 +38,7 @@ import com.appniche.xyzreader.data.ArticleLoader;
  * tablets) or a {@link ArticleDetailActivity} on handsets.
  */
 public class ArticleDetailFragment extends Fragment implements
-        LoaderManager.LoaderCallbacks<Cursor>, AppBarLayout.OnOffsetChangedListener {
+        LoaderManager.LoaderCallbacks<Cursor>{//, AppBarLayout.OnOffsetChangedListener {
     private static final String TAG = "ArticleDetailFragment";
 
     public static final String ARG_ITEM_ID = "item_id";
@@ -108,9 +108,12 @@ public class ArticleDetailFragment extends Fragment implements
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
 
         AppBarLayout appBarLayout = (AppBarLayout) mRootView.findViewById(R.id.detail_AppBar);
-        appBarLayout.addOnOffsetChangedListener(this);
+        //appBarLayout.addOnOffsetChangedListener(this);
+
         collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.detail_CollTollBar);
         collapsingToolbarLayout.setTitleEnabled(true);
+        collapsingToolbarLayout.setExpandedTitleColor(getResources().getColor(android.R.color.transparent));
+
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
 
         mStatusBarColorDrawable = new ColorDrawable(0);
@@ -213,7 +216,7 @@ public class ArticleDetailFragment extends Fragment implements
         bindViews();
     }
 
-    @Override
+    /*@Override
     public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
         int maxScroll = appBarLayout.getTotalScrollRange();
 
@@ -227,6 +230,6 @@ public class ArticleDetailFragment extends Fragment implements
             toolbar.setBackgroundColor(getResources().getColor(R.color.trans));
         }
 
-    }
+    }*/
 
 }
